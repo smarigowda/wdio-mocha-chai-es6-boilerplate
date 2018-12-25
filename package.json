@@ -1,0 +1,48 @@
+{
+  "name": "wdio-mocha-chai-es6-boilerplate",
+  "version": "0.1.0",
+  "description": "boilerplate code to get started with writing front end automation tests using webdriver.io in modern javascript using mocha framework and chai assertion library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asimakath/wdio-mocha-chai-es6-boilerplate.git"
+  },
+  "keywords": [
+    "wdio",
+    "webdriver",
+    "webdriverio",
+    "webdriver.io",
+    "mocha",
+    "chai",
+    "es6",
+    "javascript",
+    "qa",
+    "test",
+    "testing",
+    "boilerplate"
+  ],
+  "author": "aakath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asimakath/wdio-mocha-chai-es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/asimakath/wdio-mocha-chai-es6-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "@wdio/cli": "^5.0.3",
+    "@wdio/local-runner": "^5.0.3",
+    "@wdio/mocha-framework": "^5.0.3",
+    "@wdio/sauce-service": "^5.0.3",
+    "@wdio/selenium-standalone-service": "^5.0.3",
+    "@wdio/spec-reporter": "^5.0.3",
+    "@wdio/sync": "^5.0.3",
+    "chai": "^4.2.0",
+    "wdio-phantomjs-service": "^0.2.2",
+    "webdriverio": "^5.0.3"
+  }
+}
