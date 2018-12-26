@@ -10,7 +10,7 @@ exports.config = {
     capabilities: [{
         browserName: 'firefox'
     }],
-    logLevel: 'info',
+    logLevel: 'trace',
     deprecationWarnings: true,
     bail: 0,
     baseUrl: 'https://duckduckgo.com',
@@ -18,6 +18,8 @@ exports.config = {
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
     services: ['selenium-standalone'],
+    debug: true,
+    execArgv: ['--inspect-brk=127.0.0.1:5859'],
     framework: 'mocha',
     reporters: ['spec'],
     mochaOpts: {
